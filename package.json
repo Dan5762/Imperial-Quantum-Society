@@ -1,12 +1,12 @@
 {
-  "name": "11ty-landing-page",
+  "name": "ICLQS",
   "version": "0.0.1",
-  "description": "A simple landing page built with 11ty and Tailwind CSS",
+  "description": "A landing page for the Imperial College London Quantum Society",
   "scripts": {
     "serve": "eleventy --serve",
     "deploy": "eleventy"
   },
-  "author": "ttntm",
+  "author": "Daniel Long",
   "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
