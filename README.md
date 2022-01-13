@@ -1,10 +1,8 @@
-# 11ty-landing-page
+# Landing Page for the Imperial Quantum Society
 
-A simple landing page built with 11ty and Tailwind CSS.
+A simple landing page built with 11ty and Tailwind CSS, based on the [example page](https://github.com/ttntm/11ty-landing-page) by [ttntm](https://github.com/ttntm).
 
-> Port of the [Hugo Version](https://github.com/ttntm/hugo-landing-page)
-
-## How to use this template
+## How to run the site locally
 
 **Requirements:**
 
