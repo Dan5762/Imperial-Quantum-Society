@@ -1,32 +1,18 @@
 [
   {
-    "title": "Some exciting event",
-    "icon": "icon1.svg",
-    "content": "Some description"
+    "title": "Society Meeting",
+    "date": "3/2/2022",
+    "duration": "1",
+    "duration_unit": "hour",
+    "content": "We will present the society, discuss the planned events and structure, and will give an overview talk on the quantum technology industry. The talk will include many useful resources and tips on how you could get more involved and informed with this rapidly evolving industry. This meeting will be both in-person and online.",
+    "link": ""
   },
   {
-    "title": "Some exciting event",
-    "icon": "icon2.svg",
-    "content": "Some description"
-  },
-  {
-    "title": "Some exciting event",
-    "icon": "icon3.svg",
-    "content": "Some description"
-  },
-  {
-    "title": "Some exciting event",
-    "icon": "icon4.svg",
-    "content": "Some description"
-  },
-  {
-    "title": "Some exciting event",
-    "icon": "icon5.svg",
-    "content": "Some description"
-  },
-  {
-    "title": "Some exciting event",
-    "icon": "icon6.svg",
-    "content": "Some description"
+    "title": "Xanadu Hackathon",
+    "date": "23/2/2022",
+    "duration": "2",
+    "duration_unit": "days",
+    "content": "The photonic quantum computing company Xanadu is holding an online Hackathon. It seems that the Hackathon will focus on Quantum Machine Learning (QML). In the week prior to the Hackathon we will conduct several workshops for preparation, so stay tuned for more information! Meanwhile, you can register for the Hackathon by clicking here, it’s free!",
+    "link": "https://qhack.ai/"
   }
-]
+] 
