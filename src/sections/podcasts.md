@@ -1,6 +1,6 @@
 ---
-title: Podcast Recomendations
+title: Podcast Recommendations
 type: podcasts
 ---
 
-Our top podcasts
+Our favorite podcasts

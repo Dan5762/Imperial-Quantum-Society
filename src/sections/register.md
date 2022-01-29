@@ -3,4 +3,4 @@ title: Registration
 type: register
 ---
 
-Keep up to date with events and subscribe to our newsletter
+Keep up to date by subscribing to our newsletter
