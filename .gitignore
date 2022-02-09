@@ -109,3 +109,6 @@ dist
 
 #Mac OS finder file
 .DS_Store
+
+#VS Code files
+*.code-workspace
