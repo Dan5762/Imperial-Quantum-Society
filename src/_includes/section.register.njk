@@ -6,15 +6,18 @@
         <div class="font-light text-gray-400 text-xl">
           {{ item.templateContent | safe }}
         </div>
-        <div class="flex flex-row w-full justify-center space-x-2 pt-6">
-          <a class="items-center px-10 py-2 text-gray-200 bg-blue-600 rounded-full shadow-md text-lg hover:bg-blue-800 hover:border-red"
-           href="https://docs.google.com/forms/d/e/1FAIpQLScGqNynkyVH38Kl1-JyzyjkvSGI1_77dTriOQH9DLq44JkWhw/viewform">Sign Up</a>
-          <a class="px-10 py-2 text-gray-200 bg-blue-600 rounded-full shadow-md text-lg hover:bg-blue-800 hover:border-red" href="https://discord.gg/8n8ugCq4hR">
-            <div class="flex items-center space-x-2">
-              <img  class="w-10 h-10 rounded-full" src="/img/discord.png" alt="Discord" />
+        <div class="space-y-5 mt-5 flex w-full flex-col xl:flex-row xl:space-x-5 justify-center items-center bg-gray-800">
+          <div class="flex items-center w-auto ">
+            <iframe class="h-[250px]" src="https://discord.com/widget?id=938794806199595018&theme=dark"  allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+          </div>
+          <div class="items-center flex flex-col space-y-2 justify-center py-6">
+            <a class="px-10 py-2 text-gray-200 bg-blue-600 rounded-full shadow-md text-lg hover:bg-blue-800 hover:border-red inline-flex " href="https://docs.google.com/forms/d/e/1FAIpQLScGqNynkyVH38Kl1-JyzyjkvSGI1_77dTriOQH9DLq44JkWhw/viewform">
+              Sign Up 
+            </a>
+            <a class="lex flex-row space-x-2 px-10 py-2 text-gray-200 bg-blue-600 rounded-full shadow-md text-lg hover:bg-blue-800 hover:border-red inline-flex items-center" href="https://discord.gg/8n8ugCq4hR">
+              <img class="h-7 w-7" src="/img/discord.png"/>
               <span>Discord</span>
-            </div>
-          </a>
+            </a>
           </div>
         </div>
         <img class="my-12 max-w-full mx-auto" src="/img/undraw_subscriber_re_om92.svg">
