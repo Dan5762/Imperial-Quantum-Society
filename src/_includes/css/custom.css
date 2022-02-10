@@ -147,3 +147,9 @@ html {
   margin: 10px 0;
   padding: 10px;
 }
+
+#line {
+  float: left;
+  width: 731px;
+  height: 40px;                
+}
