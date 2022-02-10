@@ -3,4 +3,4 @@ title: Registration
 type: register
 ---
 
-Keep up to date by subscribing to our newsletter
+Keep up to date by subscribing to our newsletter and joining our Discord for news and announcements around the world of Quantum Technology.

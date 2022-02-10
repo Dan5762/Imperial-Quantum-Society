@@ -1,6 +1,6 @@
 {
   "baseURL": "https://imperialqtsoc.com",
-  "description": "A landing page for the Imperial College London Quantum Society",
+  "description": "Landing page for the Imperial College London Quantum Society",
   "author": "Daniel Long",
   "title": "Imperial College London Quantum Society",
   "language": "en",
@@ -8,6 +8,10 @@
     {
       "title": "Twitter",
       "url": "https://twitter.com/#"
+    },
+    {
+      "title": "Discord",
+      "url": "https://discord.gg/8n8ugCq4hR"
     }
   ]
 }
