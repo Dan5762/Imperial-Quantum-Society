@@ -1,11 +1,11 @@
 [
   {
-    "title": "Society Meeting",
-    "date": "3 Feb",
-    "duration": "1",
-    "duration_unit": "hour",
-    "content": "We will present the society, discuss the planned events and structure, and will give an overview talk on the quantum technology industry. The talk will include many useful resources and tips on how you could get more involved and informed with this rapidly evolving industry. This meeting will be both in-person and online.",
-    "link": "https://imperialqtsoc.us20.list-manage.com/track/click?u=2872b6d26ba8dd002025da2ec&id=fe28a18b49&e=a92d3e1b65"
+    "title": "Workshop in QML",
+    "date": "Feb 15 and 17",
+    "duration": "2",
+    "duration_unit": "hour &#10 each",
+    "content": "We will give an overview of QML. From the basics of machine learning, through a quick reminder of quantum computation, to the very heart of QML. We will have an hands-on “Hello World” tutorial. Together, we will install all the necessary components and packages to run a QML algorithm on a real quantum device from your own laptop !. In the second session go through two leading QML algorithms : Variational Quantum Eigensolver (VQE) and Quantum Generative Adversarial Network (QGAN).",
+    "link": "https://imperialqtsoc.us20.list-manage.com/track/click?u=2872b6d26ba8dd002025da2ec&id=1d6b1fd02f&e=a92d3e1b65"
   },
   {
     "title": "Xanadu Hackathon",
