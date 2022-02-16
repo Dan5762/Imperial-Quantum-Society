@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ site.language }}">
 <head>
+
+  <!---Teilwind elements CDN--->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+  
   {% include "head.njk" %}
 </head>
 <body id="top" class="font-sans text-gray-800 bg-gray-100">
@@ -12,5 +18,8 @@
   </a>
   {{ content | safe }}
   {% include "js.njk" %}
+
+  <!---Teilwind elements CDN--->
+  <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
 </body>
 </html>

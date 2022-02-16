@@ -1,0 +1,17 @@
+[
+    {
+      "title": "QML 101",
+      "caption": "Test",
+      "img": "/img/carousel/carousel_1.png"
+    },
+    {
+        "title": "QML 102",
+        "caption": "Test",
+        "img": "/img/carousel/carousel_2.png"
+    },
+    {
+        "title": "QML 103",
+        "caption": "Test",
+        "img": "/img/carousel/carousel_3.png"
+    }
+  ] 
