@@ -37,4 +37,22 @@
     placement: 'bottom',
     interactive: true,
   });
+
+});
+
+</script>
+
+<script>
+
+  var controller = new ScrollMagic.Controller();
+
+  var scrollHorizontal = new TimelineLite()
+  scrollHorizontal.to("#scrollContainer", 1, {x:'-100%'})
+
+  var horizontalScroll = new ScrollMagic.Scene({
+      triggerElement: "#scrollContainer",
+      triggerHook: 'onLeave',
+      duration: 3000
+    }).setPin("#scrollContainer").setTween(scrollHorizontal).addTo(controller);
+
 </script>
