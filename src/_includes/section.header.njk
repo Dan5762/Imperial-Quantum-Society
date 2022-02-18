@@ -1,6 +1,6 @@
-<div class="flex flex-col justify-center h-full py-12">
-  <div class="self-center items-center flex flex-col sm:flex-row w-full md:w-5/6 xl:w-2/3 px-4 sm:px-0">
-    <div class="w-full text-center sm:text-left sm:w-1/2 py-12 sm:px-8">
+<div class="flex flex-col space-y-5 justify-center h-full py-12">
+  <div class="self-center place-self-start items-center flex flex-col sm:flex-row w-full md:w-5/6 xl:w-2/3 px-4 sm:px-0">
+    <div class=" w-full text-center sm:text-left sm:w-1/2 py-12 sm:px-8">
       <h1 class="tracking-wide text-blue-600 text-2xl mb-6">QTS: <span
           class="text-gray-800 font-bold tracking tracking-widest">Quantum Technology Society</span></h1>
       <h2 class="font-bold tracking-widest text-4xl">Quantum Revolution is Coming</h1>
@@ -17,8 +17,7 @@
         </span>
         <p class="font-bold tracking-widest text-4xl">Get involved!</p>
     </div>
-   
-    <div id="carouselExampleCaptions" class="object-cover w-full carousel slide relative" data-bs-ride="carousel">
+    <div id="carouselExampleCaptions" class="w-full carousel slide relative" data-bs-ride="carousel">
       <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
         <button
           type="button"
@@ -42,7 +41,7 @@
         ></button>
       </div>
       <div class="h-56 sm:h-64 xl:h-80 2xl:h-96 carousel-inner rounded-lg relative w-full overflow-hidden">
-        <div class="carousel-item  h-full active relative float-left w-full">
+        <div class="carousel-item h-full active relative float-left w-full">
           <img
             src="/img/header/IBM_QC.jpg"
             class="block w-full object-cover"
@@ -96,8 +95,14 @@
       </button>
     </div>
   </div>
-</div>
-<div class="flex flex-row w-full justify-center pb-12">
-  <a class="px-10 py-2 text-gray-200 bg-blue-700 rounded-full shadow-md text-lg hover:bg-gray-800 hover:border-red"
-    href="#aim">More Information</a>
+  {% for item in collections.sections %}
+    {% if item.data.type === 'aim' %}
+      <div class="self-center bg-fuchsia-500 rounded-lg text-justify w-full sm:w-2/3 xl:w-1/2 px-4 py-10">
+        <div class="font-light text-black text-xl">
+          {{ item.templateContent | safe }}
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+ 
 </div>
