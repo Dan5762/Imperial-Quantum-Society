@@ -40,18 +40,24 @@
 </script>
 
 <script>
-    gsap.registerPlugin(ScrollTrigger);
-    let sections = gsap.utils.toArray(".panel");
-    gsap.to(sections, {
-        xPercent: -100 * (sections.length - 1),
-        ease: "none",
-        scrollTrigger: {
-            trigger: "#scrollContainer",
-            pin: true,
-            scrub: 1,
-            snap: 1 / (sections.length - 1),
-            // base vertical scrolling on how wide the container is so it feels more natural.
-            end: "+=3500",
+    var controller = new ScrollMagic.Controller();
+    var scrollContainer = document.getElementById("scrollContainer");
+    var scrollHorizontal = new TimelineLite()
+    scrollHorizontal.to("#scrollContainer", 1, {
+        x: '-100%'
+    })
+    var horizontalScroll = new ScrollMagic.Scene({
+        triggerElement: "#scrollContainer",
+        triggerHook: 'onLeave',
+        duration: 7000
+    }).setPin("#scrollContainer").setTween(scrollHorizontal).addTo(controller);
+
+    horizontalScroll.on("start", function(event) {
+        scrollContainer.setAttribute('style', 'overflow-x: visible')
+    });
+    horizontalScroll.on("leave", function(event) {
+        if (event.scrollDirection == "REVERSE") {
+            scrollContainer.setAttribute('style', 'overflow-x: hidden');
         }
     });
 </script>
