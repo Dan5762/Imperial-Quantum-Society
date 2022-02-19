@@ -176,6 +176,7 @@ html {
     position: fixed;
     left: 30px;
     bottom: 110px;
+    z-index: 1;
 }
 
 .fab1:hover {
@@ -194,6 +195,7 @@ html {
     position: fixed;
     left: 30px;
     bottom: 30px;
+    z-index: 1;
 }
 
 .fab2:hover {
@@ -201,6 +203,7 @@ html {
     transform: scale(1.05);
 }
 
-#scrollContainer {
-    display: flex;
+.navbar {
+    z-index: 1;
+    position:fixed;
 }
