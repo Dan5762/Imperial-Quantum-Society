@@ -1,0 +1,21 @@
+backend:
+  name: git-gateway
+  branch: main
+
+publish_mode: editorial_workflow
+
+media_folder: "src/static/img"
+
+collections:
+  - name: "events"
+    label: "event"
+    folder: "src/_data"
+    extension: json
+    format: json
+    fields:
+      - {name: "title", widget: "text", required: true}
+      - {name: "date", widget: "text", required: true}
+      - {name: "duration", widget: "text", required: true}
+      - {name: "duration_unit", widget: "text", required: true}
+      - {name: "content", widget: "text", required: true}
+      - {name: "link", widget: "text", required: true}
