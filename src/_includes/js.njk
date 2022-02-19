@@ -43,16 +43,18 @@
 </script>
 
 <script>
-
-  var controller = new ScrollMagic.Controller();
-
-  var scrollHorizontal = new TimelineLite()
-  scrollHorizontal.to("#scrollContainer", 1, {x:'-100%'})
-
-  var horizontalScroll = new ScrollMagic.Scene({
-      triggerElement: "#scrollContainer",
-      triggerHook: 'onLeave',
-      duration: 3000
-    }).setPin("#scrollContainer").setTween(scrollHorizontal).addTo(controller);
-
+  gsap.registerPlugin(ScrollTrigger);
+  let sections = gsap.utils.toArray(".panel");
+  gsap.to(sections, {
+    xPercent: -100 * (sections.length - 1),
+    ease: "none",
+    scrollTrigger: {
+      trigger: "#scrollContainer",
+      pin: true,
+      scrub: 1,
+      snap: 1 / (sections.length - 1),
+      // base vertical scrolling on how wide the container is so it feels more natural.
+      end: "+=3500",
+    }
+  });
 </script>
