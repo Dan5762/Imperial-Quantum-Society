@@ -1,65 +1,60 @@
 <script src="https://unpkg.com/popper.js@1"></script>
 <script src="https://unpkg.com/tippy.js@4"></script>
 <script>
-  function navToggle() {
-    let btn = document.getElementById('menuBtn');
-    let nav = document.getElementById('menu');
+    function navToggle() {
+        let btn = document.getElementById('menuBtn');
+        let nav = document.getElementById('menu');
 
-    btn.classList.toggle('open');
-    nav.classList.toggle('flex');
-    nav.classList.toggle('hidden');
-  }
-
-  window.addEventListener('scroll', function () {
-    let btt = document.getElementById('btt');
-
-    if (window.scrollY >= 1080) {
-      btt.classList.remove('hidden');
-      btt.classList.add('block');
-    } else {
-      btt.classList.add('hidden');
-      btt.classList.remove('block');
+        btn.classList.toggle('open');
+        nav.classList.toggle('flex');
+        nav.classList.toggle('hidden');
     }
-  });
 
-  console.log('Code/Design: ttntm.me'); // credit where credit is due
+    window.addEventListener('scroll', function() {
+        let btt = document.getElementById('btt');
 
-  const template = document.getElementById('followTip');
-  const container = document.createElement('div');
+        if (window.scrollY >= 1080) {
+            btt.classList.remove('hidden');
+            btt.classList.add('block');
+        } else {
+            btt.classList.add('hidden');
+            btt.classList.remove('block');
+        }
+    });
 
-  container.appendChild(document.importNode(template.content, true));
+    console.log('Code/Design: ttntm.me'); // credit where credit is due
 
-  tippy('#follow', {
-    content: container.innerHTML,
-    animation: 'scale',
-    duration: 250,
-    arrow: true,
-    placement: 'bottom',
-    interactive: true,
-  });
+    const template = document.getElementById('followTip');
+    const container = document.createElement('div');
 
-});
+    container.appendChild(document.importNode(template.content, true));
 
+    tippy('#follow', {
+        content: container.innerHTML,
+        animation: 'scale',
+        duration: 250,
+        arrow: true,
+        placement: 'bottom',
+        interactive: true,
+    });
 </script>
 
 
 
 <script>
-  /* Fugure out the horozontal scrolling animation
+    /*
+                        var controller = new ScrollMagic.Controller();
 
-  var controller = new ScrollMagic.Controller();
+                        var scrollHorizontal = new TimelineLite()
+                        scrollHorizontal.to("#scrollContainer", 1, {
+                            x: '-100%'
+                        })
 
-  var scrollHorizontal = new TimelineLite()
-  scrollHorizontal.to("#scrollContainer", 1, {x:'-100%'})
+                        var horizontalScroll = new ScrollMagic.Scene({
+                            triggerElement: "#scrollContainer",
+                            triggerHook: 'onLeave',
+                            duration: 3000
+                        }).setPin("#scrollContainer").setTween(scrollHorizontal).addTo(controller);
 
-  var horizontalScroll = new ScrollMagic.Scene({
-      triggerElement: "#scrollContainer",
-      triggerHook: 'onLeave',
-      duration: 3000
-    }).setPin("#scrollContainer").setTween(scrollHorizontal).addTo(controller);
-
-  */
-
+                        */
 </script>
-
-
