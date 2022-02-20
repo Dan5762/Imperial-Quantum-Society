@@ -1,23 +1,17 @@
 {% for item in collections.sections %} {% if item.data.type === 'events' %}
 <div id="events" class="w-screen min-h-screen flex flex-col justify-center items-center bg-blue-900 py-12 px-5">
     <div id="scrollContainer" class="self-center h-full min-h-fit flex flex-no-wrap overflow-x-scroll scrolling-touch mb-8 items-center space-x-8">
-
-        <div class="flex-none grid grid-cols-1 lg:grid-cols-2 min-h-[30rem] h-fit w-full md:w-2/3 border rounded-lg">
-            <div id="event1_carousel" class="w-full h-full carousel slide relative" data-bs-ride="carousel">
-                <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
-                    <button type="button" data-bs-target="#event1_carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#event1_carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#event1_carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="border-2 border-red-300 h-full carousel-inner rounded-lg relative w-full overflow-hidden">
+        <div class="flex-none grid grid-cols-1 lg:grid-cols-3 min-h-[30rem] h-fit w-4/5 md:w-1/2 border rounded-lg">
+            <div id="event1_carousel" class="col-span-2 w-full h-full carousel slide relative" data-bs-ride="carousel">
+                <div class="h-full carousel-inner rounded-lg relative w-full overflow-hidden">
                     <div class="carousel-item h-full active relative float-left w-full">
-                        <img src="/img/header/IBM_QC.jpg" class="block w-full object-fill" alt="..." />
+                        <img src="/img/carousel/events/event_1/pic_2.png" class="block w-full object-fill" alt="..." />
                     </div>
                     <div class="h-full carousel-item relative float-left w-full">
-                        <img src="/img/header/Google_QC.png" class="block w-full h-full object-cover" alt="..." />
+                        <img src="/img/carousel/events/event_1/pic_1.png" class="block w-full h-full object-cover" alt="..." />
                     </div>
                     <div class="h-full carousel-item relative float-left w-full">
-                        <img src="/img/header/IonQ_QC.jpg" class="block w-full h-full object-cover" alt="..." />
+                        <img src="/img/carousel/events/event_1/pic_3.png" class="block w-full h-full object-cover" alt="..." />
                     </div>
                 </div>
                 <button class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0" type="button" data-bs-target="#event1_carousel"
@@ -34,7 +28,7 @@
             <div class="h-full lg:h-full bg-black rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
                 <div class="mb-8">
                     <p class="text-sm text-gray-100 flex items-center">
-                        Members only
+                        Hackathons
                     </p>
                     <div class="text-gray-100 font-bold text-xl mb-2">Can coffee make you a better developer?</div>
                     <p class="text-gray-100 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
@@ -49,13 +43,82 @@
             </div>
         </div>
 
-        <div class="flex-none grid grid-cols-1 lg:grid-cols-2 min-h-[30rem] h-fit w-full md:w-2/3 border rounded-lg">
-            <div class="w-full h-80 lg:h-full lg:w-full flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style="background-image: url('https://tailwindcss.com/img/card-left.jpg')" title="Woman holding a mug">
+        <div class="flex-none grid grid-cols-1 lg:grid-cols-3 min-h-[30rem] h-fit w-4/5 md:w-1/2 border rounded-lg">
+            <div id="event2_carousel" class="col-span-2 w-full h-full carousel slide relative" data-bs-ride="carousel">
+                <div class="h-full carousel-inner rounded-lg relative w-full overflow-hidden">
+                    <div class="carousel-item h-full active relative float-left w-full">
+                        <img src="/img/carousel/events/event_2/pic_2.png" class="block w-full object-fill" alt="..." />
+                    </div>
+                    <div class="h-full carousel-item relative float-left w-full">
+                        <img src="/img/carousel/events/event_2/pic_1.png" class="block w-full h-full object-cover" alt="..." />
+                    </div>
+                    <div class="h-full carousel-item relative float-left w-full">
+                        <img src="/img/carousel/events/event_2/pic_3.png" class="block w-full h-full object-cover" alt="..." />
+                    </div>
+                    <div class="h-full carousel-item relative float-left w-full">
+                        <img src="/img/carousel/events/event_2/pic_4.png" class="block w-full h-full object-cover" alt="..." />
+                    </div>
+                </div>
+                <button class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0" type="button" data-bs-target="#event2_carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                 </button>
+                <button class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0" type="button" data-bs-target="#event2_carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
             <div class="h-full lg:h-full bg-black rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
                 <div class="mb-8">
                     <p class="text-sm text-gray-100 flex items-center">
-                        Members only
+                        Hackathons
+                    </p>
+                    <div class="text-gray-100 font-bold text-xl mb-2">Can coffee make you a better developer?</div>
+                    <p class="text-gray-100 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                </div>
+                <div class="flex items-center">
+                    <img class="w-10 h-10 rounded-full mr-4" src="https://pbs.twimg.com/profile_images/885868801232961537/b1F6H4KC_400x400.jpg" alt="Avatar of Jonathan Reinink">
+                    <div class="text-sm">
+                        <p class="text-gray-100 leading-none">Jonathan Reinink</p>
+                        <p class="text-gray-100">Aug 18</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex-none grid grid-cols-1 lg:grid-cols-3 min-h-[30rem] h-fit w-4/5 md:w-1/2 border rounded-lg">
+            <div id="event2_carousel" class="col-span-2 w-full h-full carousel slide relative" data-bs-ride="carousel">
+                <div class="h-full carousel-inner rounded-lg relative w-full overflow-hidden">
+                    <div class="carousel-item h-full active relative float-left w-full">
+                        <img src="/img/carousel/events/event_3/pic_2.png" class="block w-full object-fill" alt="..." />
+                    </div>
+                    <div class="h-full carousel-item relative float-left w-full">
+                        <img src="/img/carousel/events/event_3/pic_1.png" class="block w-full h-full object-cover" alt="..." />
+                    </div>
+                    <div class="h-full carousel-item relative float-left w-full">
+                        <img src="/img/carousel/events/event_3/pic_3.png" class="block w-full h-full object-cover" alt="..." />
+                    </div>
+                    <div class="h-full carousel-item relative float-left w-full">
+                        <img src="/img/carousel/events/event_3/pic_4.png" class="block w-full h-full object-cover" alt="..." />
+                    </div>
+                </div>
+                <button class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0" type="button" data-bs-target="#event2_carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                 </button>
+                <button class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0" type="button" data-bs-target="#event2_carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="h-full lg:h-full bg-black rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+                <div class="mb-8">
+                    <p class="text-sm text-gray-100 flex items-center">
+                        Hackathons
                     </p>
                     <div class="text-gray-100 font-bold text-xl mb-2">Can coffee make you a better developer?</div>
                     <p class="text-gray-100 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
