@@ -42,26 +42,26 @@
 
 
 <script>
-    /*
-                        var controller = new ScrollMagic.Controller();
+    // Method one to scroll horozontally with vertical scroll using ScrollMagic. 
+    //  Currently works on desktop but breaks on mobile
 
-                        var scrollHorizontal = new TimelineLite()
-                        scrollHorizontal.to("#scrollContainer", 1, {
-                            x: '-100%'
-                        })
-
-                        var horizontalScroll = new ScrollMagic.Scene({
-                            triggerElement: "#scrollContainer",
-                            triggerHook: 'onLeave',
-                            duration: 3000
-                        }).setPin("#scrollContainer").setTween(scrollHorizontal).addTo(controller);
-
-                        */
+    // var controller = new ScrollMagic.Controller();
+    // var scrollHorizontal = new TimelineLite()
+    // scrollHorizontal.to("#scrollContainer", 1, {
+    //     x: '-100%'
+    // })
+    
+    // var horizontalScroll = new ScrollMagic.Scene({
+    //     triggerElement: "#scrollContainer",
+    //     triggerHook: 'onLeave',
+    //     duration: 3000
+    // }).setPin("#scrollContainer").setTween(scrollHorizontal).addTo(controller);
 </script>
 
 
 <script>
-    // figure this out somehow
+    // // Method 2 to scroll horozontally with mouse wheel
+
     // const target = document.querySelector('#scrollContainer')
 
     // target.addEventListener('wheel', event => {
@@ -73,4 +73,39 @@
     //         target.scrollLeft += event.deltaY
     //     }
     // })
+</script>
+
+<script>
+//          Method 3 to scroll horozontally with mouse wheel
+
+//         jQuery(function ($) {
+//         $.fn.hScroll = function (amount) {
+//             amount = amount || 120;
+//             $(this).bind("DOMMouseScroll mousewheel", function (event) {
+//                 var oEvent = event.originalEvent,
+//                     direction = oEvent.detail ? oEvent.detail * -amount : oEvent.wheelDelta,
+//                     position = $(this).scrollLeft();
+//                 position += direction > 0 ? -amount : amount;
+//                 $(this).scrollLeft(position);
+//                 event.preventDefault();
+//             })
+//         };
+//     });
+//     $(document).ready(function(){
+//     $('#scrollContainer').hScroll(100); // You can pass (optionally) scrolling amount
+// });
+</script>
+
+<script>
+    // Makes the Prev and Next Buttons work on landing page
+
+    const buttonRight = document.getElementById('slideRight');
+    const buttonLeft = document.getElementById('slideLeft');
+
+    buttonRight.onclick = function () {
+        document.getElementById('scrollContainer').scrollLeft += 500;
+    };
+    buttonLeft.onclick = function () {
+        document.getElementById('scrollContainer').scrollLeft -= 500;
+    };
 </script>

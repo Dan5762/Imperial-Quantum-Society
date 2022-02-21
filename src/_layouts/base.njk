@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ site.language }}">
+
 <head>
 
   <!---Tailwind elements CDN--->
@@ -7,11 +8,15 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
 
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+
   {% include "head.njk" %}
 </head>
+
 <body id="top" class="font-sans text-gray-800 bg-gray-100">
   {{ content | safe }}
   {% include "js.njk" %}
 
 </body>
+
 </html>
