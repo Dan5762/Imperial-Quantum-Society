@@ -1,4 +1,4 @@
 ---
-title: Events
+title: Upcoming Events
 type: events
 ---
