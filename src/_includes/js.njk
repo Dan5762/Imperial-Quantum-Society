@@ -10,7 +10,7 @@
         nav.classList.toggle('hidden');
     }
 
-    window.addEventListener('scroll', function() {
+    window.addEventListener('scroll', function () {
         let btt = document.getElementById('btt');
 
         if (window.scrollY >= 1080) {
@@ -61,15 +61,16 @@
 
 
 <script>
-  const target = document.querySelector('#scrollContainer')
+    // figure this out somehow
+    // const target = document.querySelector('#scrollContainer')
 
-    target.addEventListener('wheel', event => {
-    const toLeft  = event.deltaY < 0 && target.scrollLeft > 0
-    const toRight = event.deltaY > 0 && target.scrollLeft < target.scrollWidth - target.clientWidth
+    // target.addEventListener('wheel', event => {
+    //     const toLeft = event.deltaY < 0 && target.scrollLeft > 0
+    //     const toRight = event.deltaY > 0 && target.scrollLeft < target.scrollWidth - target.clientWidth
 
-    if (toLeft || toRight) {
-        event.preventDefault()
-        target.scrollBy({ left: event.deltaY*4, behavior: 'smooth' });
-    }
-    })
+    //     if (toLeft || toRight) {
+    //         event.preventDefault()
+    //         target.scrollLeft += event.deltaY
+    //     }
+    // })
 </script>
