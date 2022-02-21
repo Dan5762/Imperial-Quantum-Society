@@ -148,8 +148,40 @@ html {
   padding: 10px;
 }
 
-#line {
-  float: left;
-  width: 731px;
-  height: 40px;                
+.fab1 {
+  width: 70px;
+  height: 70px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  transition: all 0.1s ease-in-out;
+
+  display: flex;
+  justify-content: center;
+
+  position: fixed;
+  left: 30px;
+  bottom: 110px;
+}
+.fab1:hover {
+  background-color: #2564eb9c;
+  transform: scale(1.05);
+}
+
+.fab2 {
+  width: 70px;
+  height: 70px;
+  background-color: #2563EB;
+  border-radius: 50%;
+  transition: all 0.1s ease-in-out;
+
+  display: flex;
+  justify-content: center;
+
+  position: fixed;
+  left: 30px;
+  bottom: 30px;
+}
+.fab2:hover {
+  background-color: #2564eb9c;
+  transform: scale(1.05);
 }

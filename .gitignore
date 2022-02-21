@@ -106,3 +106,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+#Mac OS finder file
+.DS_Store
+
+#VS Code files
+*.code-workspace
