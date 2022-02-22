@@ -1,32 +1,34 @@
-[
-  {
-    "title": "Quantum Tech Pod",
-    "icon": "quantum_tech_pod.jpeg",
-    "link": "https://podcasts.apple.com/il/podcast/quantum-tech-pod/id1577210670"
-  },
-  {
-    "title": "Quantum AI Institute",
-    "icon": "quantum_ai_institute.jpeg",
-    "link": "https://podcasts.apple.com/il/podcast/quantum-ai-institute/id1571162792"
-  },
-  {
-    "title": "Quantum Computing Now",
-    "icon": "quantum_computing_now.jpeg",
-    "link": "https://podcasts.apple.com/il/podcast/quantum-computing-now/id1471926586"
-  },
-  {
-    "title": "The Post-Quantum World",
-    "icon": "the_post_quantum_world.jpeg",
-    "link": "https://podcasts.apple.com/il/podcast/the-post-quantum-world/id1564148665"
-  },
-  {
-    "title": "IEEE Quantum",
-    "icon": "IEEE_podcast.jpeg",
-    "link": "https://podcasts.apple.com/il/podcast/ieee-quantum/id1527803273"
-  },
-  {
-    "title": "The Qubit Guy’s Podcast",
-    "icon": "the_qubit_guys_podcast.jpeg",
-    "link": "https://podcasts.apple.com/il/podcast/the-qubit-guys-podcast/id1572674760"
-  }
-]
+{
+  "podcasts": [
+    {
+      "title": "Quantum Tech Pod",
+      "icon": "quantum_tech_pod.jpeg",
+      "link": "https://podcasts.apple.com/il/podcast/quantum-tech-pod/id1577210670"
+    },
+    {
+      "title": "Quantum AI Institute",
+      "icon": "quantum_ai_institute.jpeg",
+      "link": "https://podcasts.apple.com/il/podcast/quantum-ai-institute/id1571162792"
+    },
+    {
+      "title": "Quantum Computing Now",
+      "icon": "quantum_computing_now.jpeg",
+      "link": "https://podcasts.apple.com/il/podcast/quantum-computing-now/id1471926586"
+    },
+    {
+      "title": "The Post-Quantum World",
+      "icon": "the_post_quantum_world.jpeg",
+      "link": "https://podcasts.apple.com/il/podcast/the-post-quantum-world/id1564148665"
+    },
+    {
+      "title": "IEEE Quantum",
+      "icon": "IEEE_podcast.jpeg",
+      "link": "https://podcasts.apple.com/il/podcast/ieee-quantum/id1527803273"
+    },
+    {
+      "title": "The Qubit Guy’s Podcast",
+      "icon": "the_qubit_guys_podcast.jpeg",
+      "link": "https://podcasts.apple.com/il/podcast/the-qubit-guys-podcast/id1572674760"
+    }
+  ]
+}
