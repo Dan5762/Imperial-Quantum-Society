@@ -40,6 +40,7 @@
 </script>
 
 <script>
+<<<<<<< HEAD
     // Method one to scroll horozontally with vertical scroll using ScrollMagic. 
     //  Currently works on desktop but breaks on mobile
 
@@ -109,3 +110,26 @@
 </script>
 
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+=======
+    var controller = new ScrollMagic.Controller();
+    var scrollContainer = document.getElementById("scrollContainer");
+    var scrollHorizontal = new TimelineLite()
+    scrollHorizontal.to("#scrollContainer", 1, {
+        x: '-100%'
+    })
+    var horizontalScroll = new ScrollMagic.Scene({
+        triggerElement: "#scrollContainer",
+        triggerHook: 'onLeave',
+        duration: 7000
+    }).setPin("#scrollContainer").setTween(scrollHorizontal).addTo(controller);
+
+    horizontalScroll.on("start", function(event) {
+        scrollContainer.setAttribute('style', 'overflow-x: visible')
+    });
+    horizontalScroll.on("leave", function(event) {
+        if (event.scrollDirection == "REVERSE") {
+            scrollContainer.setAttribute('style', 'overflow-x: hidden');
+        }
+    });
+</script>
+>>>>>>> alpha

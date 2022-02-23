@@ -243,9 +243,14 @@
         </div>
     </div>
     <div class="self-center w-full xl:w-4/5 flex flex-col sm:flex-row flex-wrap px-4 xl:px:0">
+<<<<<<< HEAD
         {% for item in events.events %}
         <a class="w-full sm:w-1/2 flex flex-row hover:shadow-lg hover:bg-blue-800 hover:bg-opacity-50 px-4 sm:px-8 py-6 sm:py-12"
             href="{{ item.link }}">
+=======
+        {% for item in events %}
+        <a class="w-full sm:w-1/2 flex flex-row hover:shadow-lg hover:bg-blue-800 hover:bg-opacity-50 px-4 sm:px-8 py-6 sm:py-12" href="{{ item.link }}">
+>>>>>>> alpha
             <div class="w-1/3 xl:w-1/4">
                 <h3 class="tracking-wide text-blue-300 font-bold text-2xl uppercase mb-2">
                     {{ item.date }}
@@ -265,6 +270,7 @@
     </div>
     <div class="self-center text-center w-full sm:w-1/3 px-4 sm:px:0">
         <h3 class="font-bold tracking-widest text-blue-200 text-2xl my-6">{{ item.data.afterTitle }}</h3>
+<<<<<<< HEAD
     </div>
     <div class="flex flex-row w-full justify-center pt-6">
         <a class="px-10 py-2 text-gray-200 bg-blue-600 rounded-full shadow-md text-lg hover:bg-gray-800 hover:border-red"
@@ -273,3 +279,11 @@
 </div>
 {% endif %}
 {% endfor %}
+=======
+    </div>
+    <div class="flex flex-row w-full justify-center pt-6">
+        <a class="px-10 py-2 text-gray-200 bg-blue-600 rounded-full shadow-md text-lg hover:bg-gray-800 hover:border-red" href="#social">Register Now</a>
+    </div>
+</div>
+{% endif %} {% endfor %}
+>>>>>>> alpha
