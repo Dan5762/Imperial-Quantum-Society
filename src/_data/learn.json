@@ -1,0 +1,22 @@
+{
+  "learn": [
+    {
+      "title": "Quantum Computation and Quantum Information",
+      "description": "The go-to professional book for this subject!",
+      "icon": "Nielsen_Chuang.jpg",
+      "link": "https://www.amazon.co.uk/Quantum-Computation-Information-10th-Anniversary/dp/1107002176/ref=asc_df_1107002176/?tag=googshopuk-21&linkCode=df0&hvadid=310872601819&hvpos=&hvnetw=g&hvrand=1816716757190341094&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9072504&hvtargid=pla-368760523401&psc=1&th=1&psc=1"
+    },
+    {
+      "title": "Q-CTRL Black Opal",
+      "description": "Q-CTRL have developed an intuitive learning scheme for beginners, highly recommended.",
+      "icon": "qctrl.svg",
+      "link": "https://q-ctrl.com/products/black-opal/"
+    },
+    {
+      "title": "Qiskit YouTube's Channel",
+      "description": "IBM’s quantum division has plenty of tutorials online.",
+      "icon": "qiskit.jpg",
+      "link": "https://www.youtube.com/c/qiskit/playlists"
+    }
+  ]
+}
