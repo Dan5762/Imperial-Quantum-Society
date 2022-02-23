@@ -17,6 +17,7 @@ collections:
     editor:
       preview: true
     files:
+
       - label: Events
         name: eventData
         file: "src/_data/events.json"
@@ -25,12 +26,31 @@ collections:
             label: Events
             widget: list
             fields:
-              - { name: "title", widget: "text", required: true }
-              - { name: "date", widget: "text", required: true }
-              - { name: "duration", widget: "text", required: true }
-              - { name: "duration_unit", widget: "text", required: true }
-              - { name: "content", widget: "text", required: true }
-              - { name: "link", widget: "text", required: true }
+              - name: "title"
+                widget: "text"
+                required: true 
+              - name: "date"
+                widget: "text"
+                required: true
+              - name: "duration"
+                widget: "text"
+                required: true
+              - name: "duration_unit"
+                widget: "text"
+                required: true
+              - name: "content"
+                widget: "text"
+                required: true
+              - name: "link"
+                widget: "text"
+                required: true
+              - name: "images"
+                media_folder: "src/static/img/carousel/Events/test"
+                widget: "image"
+                media_library:
+                  config:
+                    multiple: true
+
       - label: Newsletters
         name: newsletterData
         file: "src/_data/newsletters.json"
@@ -39,8 +59,13 @@ collections:
             label: Newsletters
             widget: list
             fields:
-              - { name: "title", widget: "text", required: true }
-              - { name: "link", widget: "text", required: true }
+              - name: "title"
+                widget: "text"
+                required: true
+              - name: "link"
+                widget: "text"
+                required: true
+
       - label: Podcasts
         name: podcastData
         file: "src/_data/podcasts.json"
@@ -49,6 +74,38 @@ collections:
             label: Podcasts
             widget: list
             fields:
-              - { name: "title", widget: "text", required: true }
-              - { name: "icon", widget: "text", required: true }
-              - { name: "link", widget: "text", required: true }
+              - name: "title"
+                widget: "text"
+                required: true
+              - name: "icon"
+                media_folder: "../static/img/podcasts"
+                public_folder: "img/podcasts"
+                widget: "image"
+                allow_multiple: false
+                required: true
+              - name: "link"
+                widget: "text"
+                required: true
+
+      - label: Learning Resources
+        name: learnData
+        file: "src/_data/learn.json"
+        fields:
+          - name: learn
+            label: Learning Resources
+            widget: list
+            fields:
+              - name: "title"
+                widget: "text"
+                required: true
+              - name: "description"
+                widget: "text"
+                required: true
+              - name: "icon"
+                media_folder: "../static/img/learning_resources"
+                public_folder: "img/learning_resources"
+                widget: "image"
+                allow_multiple: false
+              - name: "link"
+                widget: "text"
+                required: true
