@@ -44,12 +44,6 @@ collections:
               - name: "link"
                 widget: "text"
                 required: true
-              - name: "images"
-                media_folder: "src/static/img/carousel/Events/test"
-                widget: "image"
-                media_library:
-                  config:
-                    multiple: true
 
       - label: Newsletters
         name: newsletterData
