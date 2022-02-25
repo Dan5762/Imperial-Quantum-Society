@@ -4,17 +4,17 @@
       "title": "Multiverse talk",
       "date": "March 10",
       "duration": "1",
-      "duration_unit": "hour &#10 each",
+      "duration_unit": "hour",
       "content": "Irene Cacares Munoz will talk about the transition from academia to industry after a master degree! Irene is currently working at Multiverse, and she graduated in 2021 UCL program -MSc in quantum technologies. We are happy to host Irene in-person on campus!",
       "link": "https://www.multiversecomputing.com/"
     },
     {
-      "title": "Xanadu Hackathon",
-      "date": "23 Feb",
-      "duration": "2",
-      "duration_unit": "days",
-      "content": "The photonic quantum computing company Xanadu is holding an online Hackathon. It seems that the Hackathon will focus on Quantum Machine Learning (QML). In the week prior to the Hackathon we will conduct several workshops for preparation, so stay tuned for more information! Meanwhile, you can register for the Hackathon by clicking here, it’s free!",
-      "link": "https://qhack.ai/"
+      "title": "QML talk",
+      "date": "24 March",
+      "duration": "1",
+      "duration_unit": "hour",
+      "content": "A PhD student from Imperial will describe his research in quantum machine learning. Stay tuned for more details!",
+      "link": "https://www.imperial.ac.uk/quantum-engineering-science-technology/"
     }
   ]
 }
