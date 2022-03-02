@@ -1,22 +1,20 @@
-[
-  {
-    "title": "January 24th Edition",
-    "link": "http://mailchi.mp/f3318077e9c7/quantum-technology-society-newsletter-1"
-  },
-  {
-    "title": "January 31st Edition",
-    "link": "https://mailchi.mp/65453ee4d31c/quantum-technology-society-newsletter-2"
-  },
-  {
-    "title": "Feburary 8th Edition",
-    "link": "https://mailchi.mp/3bf15b54b267/quantum-technology-society-newsletter-15910814?e=a92d3e1b65"
-  },
-  {
-    "title": "",
-    "link": ""
-  },
-  {
-    "title": "More to come!",
-    "link": ""
-  }
-] 
+{
+  "newsletters": [
+    {
+      "title": "January 24th Edition",
+      "link": "http://mailchi.mp/f3318077e9c7/quantum-technology-society-newsletter-1"
+    },
+    {
+      "title": "January 31st Edition",
+      "link": "https://mailchi.mp/65453ee4d31c/quantum-technology-society-newsletter-2"
+    },
+    {
+      "title": "February 8th Edition",
+      "link": "https://mailchi.mp/3bf15b54b267/quantum-technology-society-newsletter-15910814?e=a92d3e1b65"
+    },
+    {
+      "title": "More to come!",
+      "link": ""
+    }
+  ]
+}

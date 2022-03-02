@@ -48,3 +48,22 @@ Best have a look at `./layouts/base.njk` first to understand how it all comes to
 **Change images:**
 
 Images are stored in `./static/img/`; everything in there can be considered a placeholder that should eventually be replaced with your actual production images.
+
+## How to run the CMS locally
+
+The netlify CMS is accessed by adding `/admin` to the base url, at which point you will need to authenticate. Authentication is handled by netlify identity (which limits us to 5 admin accounts), currently registration is closed and invite only, so reach out to Dan to be added. Information on the CMS can be found [here](https://www.netlifycms.org).
+
+First create a `.env` in the root folder, this file should contain the port for the CMS backend, it is recommended to use 8082:
+```
+PORT=8082
+```
+
+To run the CMS locally you will need then need to edit `/admin/config.yml` and add your IP address to `local_backend/allowed_hosts`.
+
+The in a separate process run the command:
+
+```
+npx netlify-cms-proxy-server
+```
+
+Once the CMS backend is running you can run the local site and navigate to the admin page, for example if you are using port 8080 this will mean going to the address `http://localhost:8080/admin`.

@@ -1,0 +1,105 @@
+backend:
+  name: git-gateway
+  branch: main
+
+publish_mode: editorial_workflow
+
+media_folder: "src/static/img"
+public_folder: "/img/"
+
+local_backend:
+  url: http://localhost:8082/api/v1
+  allowed_hosts: ['192.168.0.16']
+
+collections:
+  - label: "Site Contents"
+    name: "contents"
+    editor:
+      preview: true
+    files:
+
+      - label: Events
+        name: eventData
+        file: "src/_data/events.json"
+        fields:
+          - name: events
+            label: Events
+            widget: list
+            fields:
+              - name: "title"
+                widget: "text"
+                required: true 
+              - name: "date"
+                widget: "text"
+                required: true
+              - name: "duration"
+                widget: "text"
+                required: true
+              - name: "duration_unit"
+                widget: "text"
+                required: true
+              - name: "content"
+                widget: "text"
+                required: true
+              - name: "link"
+                widget: "text"
+                required: true
+
+      - label: Newsletters
+        name: newsletterData
+        file: "src/_data/newsletters.json"
+        fields:
+          - name: newsletters
+            label: Newsletters
+            widget: list
+            fields:
+              - name: "title"
+                widget: "text"
+                required: true
+              - name: "link"
+                widget: "text"
+                required: true
+
+      - label: Podcasts
+        name: podcastData
+        file: "src/_data/podcasts.json"
+        fields:
+          - name: podcasts
+            label: Podcasts
+            widget: list
+            fields:
+              - name: "title"
+                widget: "text"
+                required: true
+              - name: "icon"
+                media_folder: "../static/img/podcasts"
+                public_folder: "img/podcasts"
+                widget: "image"
+                allow_multiple: false
+                required: true
+              - name: "link"
+                widget: "text"
+                required: true
+
+      - label: Learning Resources
+        name: learnData
+        file: "src/_data/learn.json"
+        fields:
+          - name: learn
+            label: Learning Resources
+            widget: list
+            fields:
+              - name: "title"
+                widget: "text"
+                required: true
+              - name: "description"
+                widget: "text"
+                required: true
+              - name: "icon"
+                media_folder: "../static/img/learning_resources"
+                public_folder: "img/learning_resources"
+                widget: "image"
+                allow_multiple: false
+              - name: "link"
+                widget: "text"
+                required: true

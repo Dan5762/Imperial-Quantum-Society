@@ -35,6 +35,7 @@ module.exports = function (eleventyConfig) {
 
   // STATIC FILES
   eleventyConfig.addPassthroughCopy({ './src/static/': '/' });
+  eleventyConfig.addPassthroughCopy("admin");
 
   // TRANSFORM -- Minify HTML Output
   eleventyConfig.addTransform("htmlmin", function(content, outputPath) {

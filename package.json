@@ -17,5 +17,8 @@
     "postcss": "^8.2.9",
     "postcss-import": "^14.0.0",
     "tailwindcss": "^2.0.4"
+  },
+  "dependencies": {
+    "netlify-cms-app": "^2.15.66"
   }
 }
