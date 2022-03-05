@@ -94,8 +94,14 @@
         <h3 class="font-bold tracking-widest text-blue-200 text-2xl my-6">{{ item.data.afterTitle }}</h3>
     </div>
     <div class="flex flex-row w-full justify-center pt-6">
+        <!-- Feel free to change to a better method -->
+        {% for event in events.events %}    
+        {% if loop.index == 1 %}
         <a class="px-10 py-2 text-gray-200 bg-blue-600 rounded-full shadow-md text-lg hover:bg-gray-800 hover:border-red"
-            href="#social">Register Now</a>
+            href="{{ event.link }}">Register For Next Event</a>
+        {% else %}
+        {% endif %}
+        {% endfor %}
     </div>
 </div>
 {% endif %}
