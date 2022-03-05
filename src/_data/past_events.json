@@ -1,0 +1,100 @@
+{
+    "events": [
+        {
+            "images": [
+                {
+                    "src": "/img/carousel/events/event_3/pic_1.png",
+                    "alt": "..."
+                },
+                {
+                    "src": "/img/carousel/events/event_3/pic_2.png",
+                    "alt": "..."
+                },
+                {
+                    "src": "/img/carousel/events/event_3/pic_3.png",
+                    "alt": "..."
+                },
+                {
+                    "src": "/img/carousel/events/event_3/pic_4.png",
+                    "alt": "..."
+                }
+            ],
+            "category": "Hackathons",
+            "title": "QML Workshop",
+            "content": "The society holds regular workshops and lecture series on concepts in Quantum Technologies delivered by industry and academia experts.",
+            "date": "Feb 17"
+        },
+        {
+            "images": [
+                {
+                    "src": "/img/carousel/events/event_1/pic_1.png",
+                    "alt": "..."
+                },
+                {
+                    "src": "/img/carousel/events/event_1/pic_2.png",
+                    "alt": "..."
+                },
+                {
+                    "src": "/img/carousel/events/event_1/pic_3.png",
+                    "alt": "..."
+                },
+                {
+                    "src": "/img/carousel/events/event_1/pic_4.png",
+                    "alt": "..."
+                }
+            ],
+            "category": "Society Meetings",
+            "title": "First Society Meeting",
+            "content": "Regular meetings to discuss the planned events and structure, and give an overview talk on the quantum technology industry. These talks include many useful resources and tips on how you could get more involved and informed with this rapidly evolvin industry.",
+            "date": "Feb 3"
+        },
+        {
+            "images": [
+                {
+                    "src": "/img/carousel/events/quantum_summit_21/pic_1.png",
+                    "alt": "..."
+                },
+                {
+                    "src": "/img/carousel/events/quantum_summit_21/pic_2.png",
+                    "alt": "..."
+                },
+                {
+                    "src": "/img/carousel/events/quantum_summit_21/pic_3.png",
+                    "alt": "..."
+                },
+                {
+                    "src": "/img/carousel/events/quantum_summit_21/pic_4.png",
+                    "alt": "..."
+                }
+            ],
+            "category": "Quantum Conferences",
+            "title": "London Quantum Summit 2021",
+            "content": "The society subsidises and encourages attendance of quantum summits and conferences around the world for its memebers.",
+            "date": "Nov 10,2021"
+        },
+        {
+            "images": [
+                {
+                    "src": "/img/carousel/events/event_2/pic_2.png",
+                    "alt": "..."
+                },
+                {
+                    "src": "/img/carousel/events/event_2/pic_1.png",
+                    "alt": "..."
+                },
+                {
+                    "src": "/img/carousel/events/event_2/pic_3.png",
+                    "alt": "..."
+                },
+                {
+                    "src": "/img/carousel/events/event_2/pic_4.png",
+                    "alt": "..."
+                }
+            ],
+            "category": "Hackathons",
+            "title": "QHack 2022",
+            "content": "The society organizes workshops to prepare for hackathons around the year. These include talks given by industry experts and hands on overview of software packages used.",
+            "date": "Feb 15"
+        }
+    ]
+}
