@@ -1,14 +1,6 @@
 {
   "events": [
     {
-      "title": "Multiverse talk",
-      "date": "March 10",
-      "duration": "1",
-      "duration_unit": "hour",
-      "content": "Irene Cacares Munoz will talk about the transition from academia to industry after a master degree! Irene is currently working at Multiverse, and she graduated in 2021 UCL program -MSc in quantum technologies. We are happy to host Irene in-person on campus!",
-      "link": "https://docs.google.com/forms/d/e/1FAIpQLSdjA4aBbEJuzE6_EluBJPeA8b-C7fnViFrR9GhHcMNuXs8BjA/viewform"
-    },
-    {
       "title": "QML talk",
       "date": "March 24",
       "duration": "1",
