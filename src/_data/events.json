@@ -7,6 +7,14 @@
       "duration_unit": "hour",
       "content": "A PhD student from Imperial will describe his research in quantum machine learning. Stay tuned for more details!",
       "link": "https://www.imperial.ac.uk/quantum-engineering-science-technology/"
+    },
+    {
+      "title": "Maria Violaris Talk",
+      "date": "June 16",
+      "duration": "1",
+      "duration_unit": "hour",
+      "content": "Ms. Maria Violaris is a PhD student at Oxford and one of the rising starts of the field! She founded Oxford Quantum Information society, did 2 internships at Riverlane and IBM. She is a contributor for the Physics World magazine, and a researcher in the foundations of quantum mechanics and applications of quantum technology.",
+      "link": "https://www.linkedin.com/in/maria-violaris/"
     }
   ]
 }
