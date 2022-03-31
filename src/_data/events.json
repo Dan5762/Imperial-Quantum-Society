@@ -1,14 +1,6 @@
 {
   "events": [
     {
-      "title": "QML talk",
-      "date": "March 24",
-      "duration": "1",
-      "duration_unit": "hour",
-      "content": "A PhD student from Imperial will describe his research in quantum machine learning. Stay tuned for more details!",
-      "link": "https://www.imperial.ac.uk/quantum-engineering-science-technology/"
-    },
-    {
       "title": "Maria Violaris Talk",
       "date": "June 16",
       "duration": "1",
