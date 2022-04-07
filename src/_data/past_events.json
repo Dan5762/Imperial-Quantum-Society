@@ -3,31 +3,27 @@
     {
       "images": [
         {
-          "src": "/img/carousel/events/multiverse_10032022/IrenesTalk.png",
+          "src": "/img/carousel/events/multiverse_10032022/pic_1.png",
           "alt": "..."
         },
         {
-          "src": "/img/carousel/events/multiverse_10032022/IMG_4583.jpeg",
+          "src": "/img/carousel/events/multiverse_10032022/pic_2.png",
           "alt": "..."
         },
         {
-          "src": "/img/carousel/events/multiverse_10032022/IMG_4584.jpeg",
+          "src": "/img/carousel/events/multiverse_10032022/pic_4.png",
           "alt": "..."
         },
         {
-          "src": "/img/carousel/events/multiverse_10032022/IMG_4585.jpeg",
+          "src": "/img/carousel/events/multiverse_10032022/pic_5.png",
           "alt": "..."
         },
         {
-          "src": "/img/carousel/events/multiverse_10032022/IMG_4586.jpeg",
-          "alt": "..."
-        },
-        {
-          "src": "/img/carousel/events/multiverse_10032022/IMG_4587.jpeg",
+          "src": "/img/carousel/events/multiverse_10032022/pic_6.png",
           "alt": "..."
         }
       ],
-      "category": "Society Talks",
+      "category": "Industry Insights",
       "title": "Multiverse Computing",
       "content": "It was a pleasure to host Ms. Irene Caceres Munoz from Multiverse Computing for an highly inspiring talk! Irene shared from her experience regarding the transition from academia to industry after a master degree. She explained several important points to keep in mind, and explained why she loves working at Multiverse Computing so much!",
       "date": "Mar 10"
