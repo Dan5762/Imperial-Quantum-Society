@@ -9,12 +9,28 @@
       "link": "https://www.linkedin.com/in/maria-violaris/"
     },
     {
+      "title": "IBM - QNLP",
+      "date": "June 21",
+      "duration": "2",
+      "duration_unit": "hours",
+      "content": "IBM will come to give a talk on quantum natural language processing (QNLP). A field that was invented by Prof. Bob Coecke from Oxford university, and now begins to have some practical use cases as well. Following the talk, an hands-on workshop on QNLP will be held.",
+      "link": "https://www.youtube.com/watch?v=wqDzn_kzQTc&t=42s"
+    },
+    {
       "title": "NQCC Hackathon\n",
       "date": "July 7-8",
       "duration": "2 ",
       "duration_unit": "Days",
       "content": "UK's National Quantum Computing Center first Hackathon!\nMore details soon...",
       "link": "https://www.nqcc.ac.uk/"
+    },
+    {
+      "title": "QURECA",
+      "date": "June 30",
+      "duration": "1 ",
+      "duration_unit": "hour",
+      "link": "https://www.qureca.com/",
+      "content": "Dr. Araceli Venegas-Gomez, the founder and CEO of QURECA - quantum resources and careers will give a talk regarding the quantum industry, and where we can fit into it following our bachelor/master/PhD. If you wish start working in the quantum industry next year, this talk is definitely for you! "
     }
   ]
 }
