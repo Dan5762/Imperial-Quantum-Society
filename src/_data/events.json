@@ -17,20 +17,20 @@
       "link": "https://www.youtube.com/watch?v=wqDzn_kzQTc&t=42s"
     },
     {
-      "title": "NQCC Hackathon\n",
-      "date": "July 7-8",
-      "duration": "2 ",
-      "duration_unit": "Days",
-      "content": "UK's National Quantum Computing Center first Hackathon!\nMore details soon...",
-      "link": "https://www.nqcc.ac.uk/"
-    },
-    {
       "title": "QURECA",
       "date": "June 30",
       "duration": "1 ",
       "duration_unit": "hour",
       "link": "https://www.qureca.com/",
       "content": "Dr. Araceli Venegas-Gomez, the founder and CEO of QURECA - quantum resources and careers will give a talk regarding the quantum industry, and where we can fit into it following our bachelor/master/PhD. If you wish start working in the quantum industry next year, this talk is definitely for you! "
+    },
+    {
+      "title": "NQCC Hackathon\n",
+      "date": "July 7-8",
+      "duration": "2 ",
+      "duration_unit": "Days",
+      "content": "UK's National Quantum Computing Center first Hackathon!\nMore details soon...",
+      "link": "https://www.nqcc.ac.uk/"
     }
   ]
 }
