@@ -1,6 +1,6 @@
 {
   "name": "ICLQS",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A landing page for the Imperial College London Quantum Society",
   "scripts": {
     "serve": "eleventy --serve",
