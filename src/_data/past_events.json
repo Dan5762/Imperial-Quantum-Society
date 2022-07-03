@@ -3,6 +3,50 @@
     {
       "images": [
         {
+          "src": "/img/carousel/events/devs_screening/pic_1.jpeg",
+          "alt": "..."
+        },
+        {
+          "src": "/img/carousel/events/devs_screening/pic_2.jpeg",
+          "alt": "..."
+        },
+        {
+          "src": "/img/carousel/events/devs_screening/pic_3.jpeg",
+          "alt": "..."
+        }
+      ],
+      "category": "Screenings",
+      "title": "Devs Screening",
+      "content": "Apart from the regular technical events, we also host screenings of popular science movies and TV series that revolve around quantum technologies",
+      "date": "June 30, 2022"
+    },
+    {
+      "images": [
+        {
+          "src": "/img/carousel/events/ibm_qnlp/pic_1.jpeg",
+          "alt": "..."
+        },
+        {
+          "src": "/img/carousel/events/ibm_qnlp/pic_2.jpeg",
+          "alt": "..."
+        },
+        {
+          "src": "/img/carousel/events/ibm_qnlp/pic_3.jpeg",
+          "alt": "..."
+        },
+        {
+          "src": "/img/carousel/events/ibm_qnlp/pic_4.jpeg",
+          "alt": "..."
+        }
+      ],
+      "category": "Workshop",
+      "title": "Quantum Natural Language Processing",
+      "content": "We had the opportunity to listen to Amin Karamlou from IBM. He gave a talk on the basics of Quantum Natural Language Processing (QNLP), and how category theory combined with NLP can allow us to train sentence classifiers on Parametrised Quantum Circuits (PQCs). The talk was followed by a very helpful workshop on training a sentence generator using a PQC.",
+      "date": "June 21, 2022"
+    },
+    {
+      "images": [
+        {
           "src": "/img/carousel/events/multiverse_10032022/pic_1.png",
           "alt": "..."
         },

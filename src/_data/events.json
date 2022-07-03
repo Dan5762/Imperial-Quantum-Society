@@ -1,14 +1,6 @@
 {
   "events": [
     {
-      "title": "IBM - QNLP",
-      "date": "June 21",
-      "duration": "2",
-      "duration_unit": "hours",
-      "content": "IBM will come to give a talk on quantum natural language processing (QNLP). A field that was invented by Prof. Bob Coecke from Oxford university, and now begins to have some practical use cases as well. Following the talk, an hands-on workshop on QNLP will be held.",
-      "link": "https://docs.google.com/forms/d/e/1FAIpQLSdASE4acWbuJXps7rD0_ExLDfaU4-wa7zNsTNnFaM-D5R_XVw/viewform"
-    },
-    {
       "title": "QURECA",
       "date": "July 21",
       "duration": "1 ",
