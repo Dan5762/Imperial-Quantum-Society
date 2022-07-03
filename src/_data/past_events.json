@@ -41,7 +41,7 @@
       ],
       "category": "Workshop",
       "title": "Quantum Natural Language Processing",
-      "content": "We had the opportunity to listen to Amin Karamlou from IBM. He gave a talk on the basics of Quantum Natural Language Processing (QNLP), and how category theory combined with NLP can allow us to train sentence classifiers on Parametrised Quantum Circuits (PQCs). The talk was followed by a very helpful workshop on training a sentence generator using a PQC.",
+      "content": "Amin Karamlou from IBM gave us a very insightful talk followed by a workshop on the basics of Quantum Natural Language Processing (QNLP), and how category theory combined with NLP can allow us to train sentence classifiers/generators on Parametrised Quantum Circuits (PQCs)",
       "date": "June 21, 2022"
     },
     {
