@@ -8,6 +8,17 @@ html {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.pad-bottom{
+  padding-bottom: 20px;
+}
+
+.center-vertical{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 
 /* scrollbar styles */
 
