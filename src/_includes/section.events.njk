@@ -15,16 +15,16 @@
         </div>
     </div>
     <div id="scrollContainer"
-        class="self-center h-full min-h-fit flex flex-no-wrap overflow-x-scroll scrolling-touch mb-8 items-start space-x-8">
+        class="self-center pad-bottom h-full min-h-fit flex flex-no-wrap overflow-y-hidden overflow-y-scroll scrollbar scrollbar-thumb-blue-700 scrollbar-track-gray-100 scrollbar-thin scrollbar-track-rounded-full scrolling-touch mb-8 items-start space-x-8">
         {% for event in past_events.events %}
-        <div class="flex-none grid grid-cols-1 lg:grid-cols-3 min-h-[30rem] h-fit w-4/5 md:w-1/2 rounded-lg">
+        <div class="flex-none grid bg-black lg:grid-cols-3 h-[35rem] w-4/5 md:w-1/2 rounded-lg">
             <div id="event{{ loop.index }}_carousel" class="col-span-2 w-full h-full carousel slide relative"
                 data-bs-ride="carousel">
                 <div class="h-full carousel-inner rounded-lg relative w-full overflow-hidden">
                     {% for image in event.images %}
                     <div
-                        class="{% if loop.index == 1 %} carousel-item h-full active relative float-left w-full {% else %} h-full carousel-item relative float-left w-full{% endif %}">
-                        <img src="{{ image.src }}" class="block w-full object-fill" alt="{{ image.alt }}" />
+                        class="{% if loop.index == 1 %} carousel-item h-full active relative w-full {% else %} h-full carousel-item relative w-full{% endif %}">
+                        <img src="{{ image.src }}" class="center-vertical block object-scale-down" alt="{{ image.alt }}" />
                     </div>
                     {% endfor %}
                 </div>
@@ -42,23 +42,21 @@
                 </button>
             </div>
             <div
-                class="h-full lg:h-full bg-black rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+                class="lg:h-full bg-black rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
                 <div class="mb-8">
                     <p class="text-sm text-gray-100 flex items-center">
                         {{ event.category }}
                     </p>
                     <div class="text-gray-100 font-bold text-xl mb-2">{{ event.title }}</div>
-                    <p class="text-gray-100 text-base">{{ event.content }}</p>
+                    <p class="text-gray-100 text-sm">{{ event.content }}</p>
                 </div>
                 <div class="flex items-center">
                     <img class="w-10 h-10 rounded-full mr-4" src="/img/logo.svg" alt="Society Logo">
                     <div class="text-sm">
-                        <p class="text-gray-100 leading-none">QTSoc</p>
                         <p class="text-gray-100">{{ event.date }}</p>
                     </div>
                 </div>
             </div>
-
         </div>
         {% endfor %}
     </div>
