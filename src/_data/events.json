@@ -1,20 +1,12 @@
 {
   "events": [
     {
-      "title": "QURECA",
-      "date": "July 21",
-      "duration": "1 ",
-      "duration_unit": "hour",
-      "link": "https://www.qureca.com/",
-      "content": "Dr. Araceli Venegas-Gomez, the founder and CEO of QURECA - quantum resources and careers will give a talk regarding the quantum industry, and where we can fit into it following our bachelor/master/PhD. If you wish start working in the quantum industry next year, this talk is definitely for you! "
-    },
-    {
-      "title": "NQCC Hackathon\n",
-      "date": "July 28-29",
-      "duration": "2 ",
-      "duration_unit": "Days",
-      "content": "UK's National Quantum Computing Center first Hackathon!\n\"The Hackathon by the NQCC in collaboration with QuantX is a technical hackathon aimed at addressing the whole quantum computing value chain to demonstrate its ability to tackle real-world problems in a variety of sectors\".",
-      "link": "https://www.nqcc.ac.uk/events-article/the-nqcc-quantum-hackathon/"
+      "title": "Quantum Biology Talk",
+      "date": "October 25th",
+      "duration": "1",
+      "duration_unit": "hout",
+      "link": "https://samueli.ucla.edu/people/clarice-aiello/",
+      "content": "\"Can spin physics be established – or refuted! – to account for physiologically relevant biosensing, and be manipulated to technological and therapeutic advantage? This is the broad, exciting question that the Quantum Biology Tech (QuBiT) Lab wishes to address.\""
     }
   ]
 }
