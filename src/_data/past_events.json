@@ -3,6 +3,50 @@
     {
       "images": [
         {
+          "src": "/img/carousel/events/nqcc_hackathon/85ee89f9-bb0a-4f00-837d-607e5f125a1c.jpg",
+          "alt": "..."
+        },
+        {
+          "src": "/img/carousel/events/nqcc_hackathon/IMG_5644.jpeg",
+          "alt": "..."
+        },
+        {
+          "src": "/img/carousel/events/nqcc_hackathon/IMG_5646.jpeg",
+          "alt": "..."
+        },
+        {
+          "src": "/img/carousel/events/nqcc_hackathon/IMG_5663.jpeg",
+          "alt": "..."
+        },
+        {
+          "src": "/img/carousel/events/nqcc_hackathon/IMG_5664.jpeg",
+          "alt": "..."
+        },
+        {
+          "src": "/img/carousel/events/nqcc_hackathon/IMG_5669.jpeg",
+          "alt": "..."
+        },
+        {
+          "src": "/img/carousel/events/nqcc_hackathon/IMG_5673.jpeg",
+          "alt": "..."
+        },
+        {
+          "src": "/img/carousel/events/nqcc_hackathon/IMG_5680.jpeg",
+          "alt": "..."
+        },
+        {
+          "src": "/img/carousel/events/nqcc_hackathon/IMG_5692.jpeg",
+          "alt": "..."
+        }
+      ],
+      "category": "Hackathons",
+      "title": "NQCC Hackathon",
+      "content": "Several members of our society joined the UK's first quantum hackathon, hosted by the national quantum computing centre (NQCC)",
+      "date": "July 28-29, 2022"
+    },
+    {
+      "images": [
+        {
           "src": "/img/carousel/events/devs_screening/pic_1.jpeg",
           "alt": "..."
         },
