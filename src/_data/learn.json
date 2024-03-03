@@ -9,7 +9,7 @@
     {
       "title": "Q-CTRL Black Opal",
       "description": "Q-CTRL have developed an intuitive learning scheme for beginners, highly recommended.",
-      "icon": "qctrl.svg",
+      "icon": "qctrl.png",
       "link": "https://q-ctrl.com/products/black-opal/"
     },
     {
@@ -17,6 +17,24 @@
       "description": "IBM’s quantum division has plenty of tutorials online.",
       "icon": "qiskit.jpg",
       "link": "https://www.youtube.com/c/qiskit/playlists"
+    },
+    {
+      "title": "Pennylane's Demos",
+      "description": "PennyLane is a cutting-edge software framework designed for quantum machine learning, quantum computing, and quantum chemistry, enabling users to harness the power of quantum algorithms and devices to solve complex computational problems.",
+      "icon": "pennylane.jpg",
+      "link": "https://pennylane.ai/qml/demonstrations/"
+    },
+    {
+      "title": "Classiq Platform's Documentation",
+      "description": "Classiq is a platform that offers an innovative approach to quantum software development, providing tools and frameworks to design, simulate, and optimize quantum algorithms and circuits, aiming to streamline the quantum computing workflow for developers and researchers.",
+      "icon": "classiq.png",
+      "link": "https://docs.classiq.io/latest/"
+    },
+    {
+      "title": "QuantumPedia's Blog",
+      "description": "Quantumpedia is a comprehensive online encyclopedia on quantum computing.",
+      "icon": "QuantumPedia.png",
+      "link": "https://quantumpedia.uk/"
     }
   ]
 }
